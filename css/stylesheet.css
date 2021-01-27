@@ -17,10 +17,14 @@
 html {
     background: var(--back);
     padding: 0;
+    height: 100%;
 }
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .headerImage {
@@ -77,4 +81,31 @@ nav .wrapper ul li .active {
 
 .content {
     margin: 20px 25vw;
+    flex: 1;
+}
+
+footer {
+}
+
+.footerInfo {
+    background: var(--navback);
+    padding: 24px;
+    margin: 0;
+}
+
+.discordLink {
+    text-align: center;    
+}
+
+.discordLink img {
+    width: 120px;
+    height: 120px;
+}
+
+.copyright {
+    background: var(--back);
+    padding: 4px;
+}
+.copyright p {
+    margin: 0;
 }
