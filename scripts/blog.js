@@ -11,7 +11,7 @@ async function LoadBlog() {
         return;
     }
 
-    let text = await readHtml(link);
+    let text = await readText(link, "text/markdown");
     var content = document.getElementById("content");
     content.innerHTML = text;
 
