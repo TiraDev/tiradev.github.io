@@ -33,7 +33,7 @@ async function LoadBlog() {
     content.appendChild(markdown);
 
     var img = document.createElement("img");
-    img.src = "res/" + author.image;
+    img.src = "res/avatars/" + author.image;
     img.alt = "Avatar";
     img.style = "width: 16px; height: 16px; border-radius: 50%;";
     content.appendChild(img);
