@@ -1,3 +1,5 @@
+// const marked = require("marked");
+
 async function LoadBlog() {
     let link = getParameterByName("link");
     if(!link) {
@@ -11,9 +13,9 @@ async function LoadBlog() {
         return;
     }
 
-    let text = await readHtml(link);
+    let text = await readText("blogPages/" + link + ".md", "text/markdown");
     var content = document.getElementById("content");
-    content.innerHTML = text;
+    content.innerHTML = marked(text);
 
     document.title = document.title + " " + blog.name;
 }

@@ -14,7 +14,7 @@ const months = [
     "December"
 ];
 
-const blogPage = "blog.md";
+const blogPage = "blog.html";
 
 async function ListBlogs() {
     var blogs = await readJson("blogs");
