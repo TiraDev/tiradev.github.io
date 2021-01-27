@@ -1,19 +1,3 @@
-const months = [
-    "",
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-];
-
 const blogPage = "blog.html";
 
 async function ListBlogs() {
@@ -24,9 +8,12 @@ async function ListBlogs() {
 
     for(let i = 0; i < blogs.length; i++) {
         let blog = blogs[i];
-        blog.year = parseInt(blog.date.substring(0, 4));
-        blog.month = parseInt(blog.date.substring(5, 7));
-        blog.day = parseInt(blog.date.substring(8, 10));
+        
+        var date = decomposeDate(blog.date);
+        blog.year = date.year;
+        blog.month = date.month;
+        blog.day = date.day;
+
         if(!map.has(blog.year)) {
             var array = [];
             for(let m = 0; m <= 12; m++) {

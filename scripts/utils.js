@@ -1,3 +1,43 @@
+const months = [
+    "",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+
+const monthsShort = [
+    "",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+];
+
+function decomposeDate(date) {
+    return { 
+        year: parseInt(date.substring(0, 4)),
+        month: parseInt(date.substring(5, 7)),
+        day: parseInt(date.substring(8, 10)) 
+    };
+}
+
 function createError(errorMessage, errorElement) {
     var message = "Error while loading page: " + errorMessage;
     if(!errorElement) {
