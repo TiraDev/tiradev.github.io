@@ -37,9 +37,8 @@ async function LoadBlog() {
     img.src = "res/avatars/" + author.image;
     img.alt = "Avatar";
     img.className = "avatar";
-    authorName.appendChild(img);
 
-    authorName.innerText = author.name;
+    authorName.innerText = img.outerHTML +  author.name;
     content.appendChild(authorName);
 
     document.title = document.title + " " + blog.name;
