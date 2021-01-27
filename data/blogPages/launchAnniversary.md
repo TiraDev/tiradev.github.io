@@ -9,16 +9,17 @@ As you might be able to tell, this blog is the biggest thing that the community 
 ## Art Gallery: 
 
 Here is some of our concept art and more aesthetic pieces!
+
 This is the concept for a cryo-chamber where the passengers of the Boundless Opportunity will be cooled.
 
-![This is the concept for a cryo-chamber where the passengers of the Boundless Opportunity will be cooled.]("/res/blogPages/Crychamber_Blockout.jpg")
+![This is the concept for a cryo-chamber where the passengers of the Boundless Opportunity will be cooled.](/res/blogPages/Crychamber_Blockout.jpg)
 
 The lander that will take us down to Tira.
 
-![The lander that will take us down to Tira.]("BO_Lander_Open_Hanger_With_3D_Render.jpg")
+![The lander that will take us down to Tira.](/res/blogPages/BO_Lander_Open_Hanger_With_3D_Render.jpg)
 
 Early concepts for a landing rover.
 
-![Early concepts for a landing rover.]("Vehicle_concept_1_rough.jpg")
+![Early concepts for a landing rover.](/res/blogPages/Vehicle_concept_1_rough.jpg)
 
 ## A Word From Bloody Pigeon: “supercalifragilisticexpialidocious”
