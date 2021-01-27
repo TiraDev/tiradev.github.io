@@ -32,13 +32,13 @@ async function LoadBlog() {
     markdown.innerHTML = marked(text);
     content.appendChild(markdown);
 
+    var authorName = document.createElement("p");
     var img = document.createElement("img");
     img.src = "res/avatars/" + author.image;
     img.alt = "Avatar";
     img.className = "avatar";
-    content.appendChild(img);
+    authorName.appendChild(img);
 
-    var authorName = document.createElement("p");
     authorName.innerText = author.name;
     content.appendChild(authorName);
 
