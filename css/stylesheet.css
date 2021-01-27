@@ -1,0 +1,80 @@
+:root {
+    --back: #1e1e1e;
+    --navtext: #d4d4d4;
+    --navback: #252525;
+    --navhigh: #333333;
+    --navactive: #B54929;
+    --text: #d4d4d4;
+    --fullwhite: #ffffff;
+
+    --headerImageHeight: 250px;
+}
+
+* {
+    color: var(--text);
+}
+
+html {
+    background: var(--back);
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.headerImage {
+    width: 100%;
+    height: var(--headerImageHeight);
+    background-image: url("/res/Flight_Over_The_Tundra.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.headerImage h1 {
+    font-size: 220px;
+    color: var(--fullwhite);
+    margin: 0;
+    opacity: 0.7;
+}
+
+nav.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav .wrapper ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--navback);
+}
+  
+nav .wrapper ul li {
+    float: left;
+}
+  
+nav .wrapper ul li a {
+    display: block;
+    color: var(--navtext);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav .wrapper ul li a:hover:not(.active) {
+    background-color: var(--navhigh);
+}
+  
+nav .wrapper ul li .active {
+    background-color: var(--navactive);
+}
+
+.content {
+    margin: 20px 25vw;
+}

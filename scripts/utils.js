@@ -1,0 +1,44 @@
+function createError(errorMessage, errorElement) {
+    var message = "Error while loading page: " + errorMessage;
+    if(!errorElement) {
+        errorElement = document.getElementById("content");
+    }
+    console.error(message);
+    var error = document.createElement("h1");
+    error.innerText = message;
+    error.style = "color: red; font-size: 40px; text-align: center; width: 100%;";
+    errorElement.appendChild(error);
+}
+
+function readFile(location, contentType) {
+    var init = {
+        method: 'GET',
+        headers: {
+            'Content-Type': contentType
+        },
+        mode: 'cors',
+        cache: 'default'
+    };
+
+    let request = new Request("/data/" + location, init);
+
+    return fetch(request);
+}
+
+function readHtml(location) {
+    return readFile("" + location + ".html", "text/html").then(resp => resp.text());
+}
+
+function readJson(location) {
+    return readFile("" + location + ".json", "application/json").then(resp => resp.json());
+}
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return "";
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
