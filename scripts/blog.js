@@ -35,7 +35,7 @@ async function LoadBlog() {
     var img = document.createElement("img");
     img.src = "res/avatars/" + author.image;
     img.alt = "Avatar";
-    img.style = "width: 16px; height: 16px; border-radius: 50%;";
+    img.className = "avatar";
     content.appendChild(img);
 
     var authorName = document.createElement("p");
