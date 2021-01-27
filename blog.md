@@ -26,7 +26,9 @@
 <div class="content">
 <!-- body -->
 
-<div id="content"></div>
+<div id="content">
+
+</div>
 
 </div>
 <!-- footer -->

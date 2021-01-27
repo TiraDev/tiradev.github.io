@@ -1,4 +1,4 @@
-let months = [
+const months = [
     "",
     "January",
     "February",
@@ -12,7 +12,9 @@ let months = [
     "October",
     "November",
     "December"
-]
+];
+
+const blogPage = "blog.md";
 
 async function ListBlogs() {
     var blogs = await readJson("blogs");
@@ -63,7 +65,7 @@ async function ListBlogs() {
                 for(var blog of value[m]) {
                     var li = document.createElement("li");
                     var obj = document.createElement("a");
-                    obj.href = "/blog.html?link=" + blog.link;
+                    obj.href = "/" + blogPage + "?link=" + blog.link;
                     obj.innerHTML = blog.name;
                     li.appendChild(obj);
                     blogList.appendChild(li);

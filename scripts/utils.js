@@ -25,8 +25,12 @@ function readFile(location, contentType) {
     return fetch(request);
 }
 
+function readText(location, contentType) {
+    return readFile(location, contentType).then(resp => resp.text());
+}
+
 function readHtml(location) {
-    return readFile("" + location + ".html", "text/html").then(resp => resp.text());
+    return readText("" + location + ".html", "text/html");
 }
 
 function readJson(location) {
