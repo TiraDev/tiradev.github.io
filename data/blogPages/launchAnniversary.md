@@ -22,4 +22,4 @@ Early concepts for a landing rover.
 
 ![Early concepts for a landing rover.](/res/blogPages/Vehicle_concept_1_rough.jpg)
 
-## A Word From Bloody Pigeon: “supercalifragilisticexpialidocious”
+A Word From Bloody Pigeon: “supercalifragilisticexpialidocious”
