@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <script type="text/javascript" src="scripts/utils.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
     <title>Tira</title>
 </head>
 
-<body>
+<body onload="LatestBlog('nb');">
 <!-- header -->
 
 <div class="headerImage">
@@ -21,16 +23,31 @@
         <li><a href="/blogs.html">Blogs</a></li>
     </ul>
 </nav>
-<div class="content">
-<!-- body -->
 
-<p>
-    Join us on our adventure on the tiny red speck in the vast emptiness of space.
-    <br><br>
-    TIRA is a game about survival that takes place on the alien planet Tira 292b. 
-    You were sent to scout out the dangerously unfamiliar landscape of the only other known instance of life in our 
-    grand universe and forge a home for the scientists and researchers that have come with you to study the scientific gold mine.
-</p>
+<!-- body -->
+<div class="main">
+
+    <div class="sidebar">
+        <div class="panel" id="nb">
+            <p>Latest Blog:</p>
+        </div>
+    </div>
+    
+    <div class="content">
+
+        <p>
+            Join us on our adventure on the tiny red speck in the vast emptiness of space.
+            <br><br>
+            TIRA is a game about survival that takes place on the alien planet Tira 292b. 
+            You were sent to scout out the dangerously unfamiliar landscape of the only other known instance of life in our 
+            grand universe and forge a home for the scientists and researchers that have come with you to study the scientific gold mine.
+        </p>
+
+    </div>
+
+    <div class="sidebar">
+
+    </div>
 
 </div>
 <!-- footer -->

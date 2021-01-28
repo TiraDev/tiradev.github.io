@@ -80,12 +80,34 @@ nav .wrapper ul li .active {
     background-color: var(--navactive);
 }
 
-.content {
-    margin: 20px 25vw;
+.main {
     flex: 1;
 }
 
-footer {
+.sidebar {
+    width: 25vw;
+    float: left;
+    min-height: 1px;
+}
+
+.panel {
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px;
+    background: var(--navback);
+}
+
+.panel p:first-child {
+    margin-top: 0;
+}
+
+.panel p:last-child {
+    margin-bottom: 0;
+}
+
+.content {
+    width: 50vw;
+    float: left;
+    margin: 20px 0;
 }
 
 .footerInfo {
@@ -118,7 +140,14 @@ footer {
         --titleHeight: 130px;
     }
     
+    .sidebar {
+        float: none;
+        width: 100%;
+    }
+    
     .content {
+        float: none;
+        width: 100%;
         margin: 20px 20px;
     }
 }
