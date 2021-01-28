@@ -19,10 +19,13 @@ html {
     background: var(--back);
     padding: 0;
     height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 body {
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -147,7 +150,7 @@ nav .wrapper ul li .active {
     
     .content {
         float: none;
-        width: 100%;
+        width: calc(100% - 2 * 20px);
         margin: 20px 20px;
     }
 }
