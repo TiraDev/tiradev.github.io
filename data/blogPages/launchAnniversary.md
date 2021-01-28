@@ -1,6 +1,6 @@
 # -209th BO Launch Anniversary
 
-On this day, 209 years in the future, the historic launch of the Boundless Opportunity took place after its extensive 6-month renovation program from a donated [original company] at the Ferrenel Orbital Manufacturer by [renovating company, if the same company or by the program remain blank]. Twenty cosmonauts were flown up to the FOM, leaving an enormous crowd behind. A few days later, after making sure the ship was all in order, these brave souls fell asleep, knowing that when they awoke, their family and friends, although alive for the most part, would never see or hear from them again.
+On this day, 209 years in the future, the historic launch of the Boundless Opportunity took place after its extensive 6-month renovation program from a donated Astrodynamics at the Ferrenel Orbital Manufacturer by the brightest engineering geniuses on Earth, brought together under our banner by the common goal of the scientific wonders that this once hidden planet may bring. Twenty cosmonauts were flown up to the FOM, leaving an enormous crowd behind. A few days later, after making sure the ship was all in order, these brave souls fell asleep, knowing that when they awoke, their family and friends, although alive for the most part, would never see or hear from them again.
 
 Right now in 2021, the year of simultaneous dread and hope, we on the dev team of TIRA have some exciting news to share with you! 
 ## Community News: 
