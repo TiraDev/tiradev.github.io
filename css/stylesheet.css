@@ -114,7 +114,18 @@ nav .wrapper ul li .active {
 }
 
 .homeText {
+    align-items: center;
+    align-content: center;
     text-align: center;
+}
+
+.homeText h1, .homeText h2, .homeText h3, .homeText h4, .homeText h5, .homeText h6 {
+    text-align: center;
+    align-self: center;
+}
+
+.homeText :first-child {
+    margin-top: 0;
 }
 
 .footerInfo {
