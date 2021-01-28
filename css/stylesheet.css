@@ -113,6 +113,10 @@ nav .wrapper ul li .active {
     margin: 20px 0;
 }
 
+.homeText {
+    text-align: center;
+}
+
 .footerInfo {
     background: var(--navback);
     padding: 24px;
