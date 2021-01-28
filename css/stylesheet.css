@@ -129,6 +129,10 @@ nav .wrapper ul li .active {
     margin-top: 0;
 }
 
+.fit {
+    width: 100%;
+}
+
 .footerInfo {
     background: var(--navback);
     padding: 24px;
