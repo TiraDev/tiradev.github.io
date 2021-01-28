@@ -8,6 +8,7 @@
     --fullwhite: #ffffff;
 
     --headerImageHeight: 250px;
+    --titleHeight: 220px;
 }
 
 * {
@@ -39,7 +40,7 @@ body {
 }
 
 .headerImage h1 {
-    font-size: 220px;
+    font-size: var(--titleHeight);
     color: var(--fullwhite);
     margin: 0;
     opacity: 0.7;
@@ -106,6 +107,18 @@ footer {
     background: var(--back);
     padding: 4px;
 }
+
 .copyright p {
     margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    :root {
+        --headerImageHeight: 150px;
+        --titleHeight: 130px;
+    }
+    
+    .content {
+        margin: 20px 20px;
+    }
 }
