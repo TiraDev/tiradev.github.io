@@ -85,7 +85,7 @@ nav .wrapper ul li .active {
 }
 
 .sidebar {
-    width: 25vw;
+    width: 25%;
     float: left;
     min-height: 1px;
 }
@@ -105,7 +105,7 @@ nav .wrapper ul li .active {
 }
 
 .content {
-    width: 50vw;
+    width: 50%;
     float: left;
     margin: 20px 0;
 }
