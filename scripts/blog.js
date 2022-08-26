@@ -29,7 +29,7 @@ async function LoadBlog() {
     content.appendChild(info);
 
     var markdown = document.createElement("div");
-    markdown.innerHTML = marked(text);
+    markdown.innerHTML = marked.parse(text);
     content.appendChild(markdown);
 
     var authorName = document.createElement("p");
